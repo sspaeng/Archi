@@ -2064,6 +2064,12 @@ pre code {
 	margin-left: -15px
 }
 
+.row2 {
+	margin-top: 150px;
+	margin-right: 350px;
+	margin-left: 350px
+}
+
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3,
 	.col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9,
 	.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3,
@@ -7148,7 +7154,7 @@ button.close {
 	.modal-footer:after, .modal-footer:before, .nav:after, .nav:before,
 	.navbar-collapse:after, .navbar-collapse:before, .navbar-header:after,
 	.navbar-header:before, .navbar:after, .navbar:before, .pager:after,
-	.pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before
+	.pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before, .row2:after, .row2:before
 	{
 	display: table;
 	content: " "
@@ -7158,7 +7164,7 @@ button.close {
 	.container-fluid:after, .container:after, .dl-horizontal dd:after,
 	.form-horizontal .form-group:after, .modal-footer:after, .nav:after,
 	.navbar-collapse:after, .navbar-header:after, .navbar:after, .pager:after,
-	.panel-body:after, .row:after {
+	.panel-body:after, .row:after , .row2:after{
 	clear: both
 }
 
@@ -26217,4 +26223,8 @@ opacity
 
 .panel-login>.panel-footer+.panel-collapse>.panel-body {
 	border-bottom-color: #337ab7
+}
+
+.bg-color-bk {
+	background-color: black
 }

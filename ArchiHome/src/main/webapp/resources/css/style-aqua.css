@@ -6783,7 +6783,7 @@ input[type="date"]:focus {
 .col-megamenu::last-child {
   border: 0;
 }
-.yamm-content .row {
+.yamm-content .row .row2 {
   margin: 0;
 }
 .megamenu-block .megamenu-block-title {

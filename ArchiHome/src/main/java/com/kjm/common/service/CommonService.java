@@ -1,5 +1,9 @@
 package com.kjm.common.service;
 
-public class CommonService {
+import java.util.List;
 
+public interface CommonService {
+
+	List<?> selectUserInfo(CommonVO commonVO) throws Exception;
+	
 }

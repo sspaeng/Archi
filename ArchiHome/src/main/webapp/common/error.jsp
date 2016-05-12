@@ -5,8 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="<c:url value='/css/egovframework/sample.css'/>" />
-<title>Basic Sample</title>
+<link rel="stylesheet" type="text/css" href="<c:url value='/resources/css/egovframework/sample.css'/>" />
+<title>Error Page</title>
 </head>
 
 <body>
@@ -14,7 +14,7 @@
         <tr>
             <td width="100%" height="100%" align="center" valign="middle" style="padding-top: 150px;"><table border="0" cellspacing="0" cellpadding="0">
                     <tr>
-                        <td class="<spring:message code='image.errorBg' />">
+                        <td class="<spring:message code='image.errorBg' />">Error
                             <span style="font-family: Tahoma; font-weight: bold; color: #000000; line-height: 150%; width: 440px; height: 70px;"></span>
                         </td>
                     </tr>

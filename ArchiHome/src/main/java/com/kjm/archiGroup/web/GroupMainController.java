@@ -1,27 +1,15 @@
-package com.kjm.archiMain.web;
-
-import java.util.HashMap;
-
-
-
-import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
+package com.kjm.archiGroup.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
-import com.kjm.archiMain.service.MainService;
-import com.kjm.archiMain.service.MainVO;
-import com.kjm.common.CommonUtil;
-import com.kjm.common.Constant;
+import com.kjm.archiGroup.service.GroupMainVO;
 
 
 /**
- * @Class Name : MainController.java
+ * @Class Name : GroupMainController.java
  * @Description : Controller Class
  * @Modification Information
  * @
@@ -38,6 +26,12 @@ import com.kjm.common.Constant;
  */
 
 @Controller
-public class MainController {
+public class GroupMainController {
 
+	@RequestMapping(value = "/groupMain.do")
+	public String groupMain(@ModelAttribute("groupMainVO") GroupMainVO groupMainVO,
+			ModelMap model) throws Exception
+	{
+		return "home_group";
+	}
 }
