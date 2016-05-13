@@ -21,9 +21,6 @@ import com.kjm.common.service.CommonVO;
 @Controller
 public class CommonController {
 	
-	@Resource(name = "commonService")
-	private CommonService commonService;
-	
 	@RequestMapping(value = "/home.do")
 	public String main(@ModelAttribute("commonVO") CommonVO commonVO, ModelMap model) throws Exception
 	{
@@ -53,7 +50,7 @@ public class CommonController {
 	public String logon(@ModelAttribute("commonVO") CommonVO commonVO, 
 			HttpServletRequest request, ModelMap model) throws Exception
 	{
-		List<?> userInfo = commonService.selectUserInfo(commonVO);
+		//List<?> userInfo = commonService.selectUserInfo(commonVO);
 		
 		return "home";
 	}

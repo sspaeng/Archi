@@ -4,6 +4,6 @@ import java.util.List;
 
 public interface CommonService {
 
-	List<?> selectUserInfo(CommonVO commonVO) throws Exception;
+	/*List<?> selectUserInfo(CommonVO commonVO) throws Exception;*/
 	
 }

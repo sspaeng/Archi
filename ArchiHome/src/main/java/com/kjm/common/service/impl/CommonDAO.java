@@ -17,8 +17,8 @@ public class CommonDAO extends EgovAbstractDAO {
 	 * @return 사용자정보
 	 * @exception Exception
 	 */
-	public List<?> selectUserInfo(CommonVO commonVO) throws Exception{
+/*	public List<?> selectUserInfo(CommonVO commonVO) throws Exception{
 		return list("commonDAO.selectUserInfo", commonVO);
-	}
+	}*/
 	
 }

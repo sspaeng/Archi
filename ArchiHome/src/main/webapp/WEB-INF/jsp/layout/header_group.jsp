@@ -3,7 +3,7 @@
 	<div class="container">
 <!-- 	<div class="header-full-title"> -->
 		<div class="">
-			<h1 class="text-center"><strong><a href="/home.do">Archi Group</strong></a></h>
+			<h1 class="text-center"><strong><a href="/home.do">Archi Group</a></strong></h1>
 			<!-- <p class="animated fadeInRight"><span>GroupWare</span></p> -->
 		</div>
 	</div>
