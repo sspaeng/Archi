@@ -1,4 +1,4 @@
-package com.kjm.common.service;
+package egovframework.archi.common.service;
 
 public class CommonVO {
 

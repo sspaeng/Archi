@@ -1,11 +1,10 @@
-package com.kjm.common.service.impl;
+package egovframework.archi.common.service.impl;
 
 import java.util.List;
 
 import javax.annotation.Resource;
 
-import com.kjm.common.service.CommonService;
-import com.kjm.common.service.CommonVO;
+import egovframework.archi.common.service.CommonService;
 
 public class CommonServiceImpl implements CommonService{
 

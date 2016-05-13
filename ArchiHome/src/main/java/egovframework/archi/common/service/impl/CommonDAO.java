@@ -1,10 +1,8 @@
-package com.kjm.common.service.impl;
+package egovframework.archi.common.service.impl;
 
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
-
-import com.kjm.common.service.CommonVO;
 
 import egovframework.rte.psl.dataaccess.EgovAbstractDAO;
 

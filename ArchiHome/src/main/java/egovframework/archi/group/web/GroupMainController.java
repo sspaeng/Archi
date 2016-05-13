@@ -1,12 +1,11 @@
-package com.kjm.archiGroup.web;
+package egovframework.archi.group.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.kjm.archiGroup.service.GroupMainVO;
-
+import egovframework.archi.group.service.GroupMainVO;
 
 /**
  * @Class Name : GroupMainController.java

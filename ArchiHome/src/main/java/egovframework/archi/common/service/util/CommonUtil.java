@@ -1,4 +1,4 @@
-package com.kjm.common;
+package egovframework.archi.common.service.util;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
